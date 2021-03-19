@@ -10,7 +10,7 @@ None for now.
 
 Installation
 ------------
-Edit config.mk to match your local setup (stex is installed into
+Edit config.mk to match your local setup (moe is installed into
 the /usr/local namespace by default.)
 
 Afterwards enter the following command to build and install moe (if
@@ -21,7 +21,7 @@ necessary as root):
 
 Running moe
 ------------
-Run stex via any terminal.
+Run moe via any terminal.
 
 control + q to quit.
 control + s to save
