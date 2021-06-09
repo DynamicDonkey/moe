@@ -19,7 +19,7 @@
 
 /*** defines ***/
 
-#define MOE_VERSION "1.1"
+#define MOE_VERSION "1.2"
 #define MOE_TAB_STOP 8
 #define MOE_QUIT_TIMES 1
 
@@ -101,7 +101,7 @@ char *C_HL_keywords[] = {
   "struct", "union", "typedef", "static", "enum", "class", "case",
 
   "int|", "long|", "double|", "float|", "char|", "unsigned|", "signed|",
-  "void|", NULL
+  "void|", "#include", "#define", NULL
 };
 
 struct editorSyntax HLDB[] = {
